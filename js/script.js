@@ -1,4 +1,4 @@
-// While
+/* While
 
 let cont = 0;
 while(cont <= 10){
@@ -13,3 +13,12 @@ do{
     document.write("O valor do While-Do é: " + cont1 + "<br>");
     cont1++
 } while (cont1 == 0)
+*/
+
+// DOM
+
+function mudar(){
+    let novoTitulo = document.getElementById("nome")
+    document.getElementById("titulo").innerHTML = novoTitulo.value
+}
+
